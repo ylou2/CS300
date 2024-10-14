@@ -1,0 +1,30 @@
+Event Management System
+
+Overview
+
+This Event Management System allows users to create, search, and manage events such as workshops, concerts, and conferences. It includes features for RSVPs, event details, and notification preferences.
+
+Features
+
+Create different types of events: Workshops, Concerts, and Conferences.
+RSVP for events and view attendee lists.
+Search events by type, date, and location.
+List all upcoming events.
+Set notification preferences for event reminders.
+Display event details and attendance statistics.
+Requirements
+
+Note: need to change the local path of date library to your own path in Makefile
+
+C++11 or higher
+date library (ensure to include this in your project)
+Usage
+
+Compile the code: Ensure you have a C++ compiler installed. Use the following command to compile:
+
+make
+
+Run the application:
+
+make run
+Follow the on-screen menu to create, search, or manage events.
